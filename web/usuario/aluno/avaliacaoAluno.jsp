@@ -1,11 +1,15 @@
 
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>SchoolShare | Avaliação</title>
-        
-    </head>
-    <body>
-        <h1>Avaliação</h1>
-    </body>
+<%@page import="web.java.mapping.ListagemArquivos"%>
+
+<%@page import="web.java.mapping.ListagemArquivos"%> 
+
+<%@include file="/master/master.jsp" %>
+
+<a href="/AlunoDaianaParteFinal/usuario/aluno/avaliacaoAluno.jsp"></a>
+
+        <title>SchoolShare | AvaliaÃ§Ã£o</title>
+   
+        <h2>AvaliaÃ§Ã£o</h2>
     

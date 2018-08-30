@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author Freakazed-PC
  */
-@WebServlet(urlPatterns = "/Turma")
+@WebServlet(urlPatterns = "/turma")
 public class Turma extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
@@ -21,6 +21,6 @@ public class Turma extends HttpServlet {
         PrintWriter out = response.getWriter();
         out.println("Turma");
         
-        response.sendRedirect("./usuario/aluno/turma.jsp");
+        response.sendRedirect("/usuario/aluno/turma.jsp");
     }
 }

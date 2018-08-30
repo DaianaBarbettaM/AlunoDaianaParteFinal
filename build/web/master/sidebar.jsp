@@ -42,6 +42,13 @@
                     </span>
                 </a>
             </li>
+            <li>
+                <a href="/AlunoDaianaParteFinal/turma">
+                    <i class="fa fa-th"></i> <span>Turma</span>
+                    <span class="pull-right-container">
+                    </span>
+                </a>
+            </li
         </ul>
     </section>
     <!-- /.sidebar -->

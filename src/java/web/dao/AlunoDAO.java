@@ -75,7 +75,7 @@ public boolean excluir(int id){
     return false;
 }
 
-public AlunoBean obterPeloId(int id){
+public static AlunoBean obterPeloId(int id){
    String sql = "SELECT * FROM alunos WHERE id = ?";
    try{
         PreparedStatement ps = Banco.obterBanco().prepareStatement(sql);

@@ -14,7 +14,7 @@ public class Frequencia extends HttpServlet{
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
-        req.getRequestDispatcher("/aluno/frequencia.jsp").include(req, resp);
+        req.getRequestDispatcher("/usuario/aluno/frequencia.jsp").include(req, resp);
     
     }
 }

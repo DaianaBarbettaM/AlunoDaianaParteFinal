@@ -21,7 +21,7 @@ public class Calendario extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) 
             throws ServletException, IOException {
-         req.getRequestDispatcher("/aluno/calendarioAluno.jsp").include(req, resp);
+         req.getRequestDispatcher("/usuario/aluno/calendarioAluno.jsp").include(req, resp);
         
     }
    

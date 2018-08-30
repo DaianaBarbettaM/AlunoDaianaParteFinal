@@ -9,13 +9,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-@WebServlet (urlPatterns ="/perfil")
+@WebServlet (urlPatterns = "/perfil")
 public class Perfil extends HttpServlet {
 
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) 
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) 
             throws ServletException, IOException {
-        req.getRequestDispatcher("/aluno/perfil.jsp").include(req, resp);
-   }
+        
+     req.getRequestDispatcher("/usuario/aluno/perfilAluno.jsp").include(req, resp);
+
+    } 
 }
+    
 

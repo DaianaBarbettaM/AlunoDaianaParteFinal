@@ -6,7 +6,7 @@
 
 <%@include file="/master/master.jsp" %>
 
-<a href="/AlunoDaianaParteFinal/aluno.jsp"></a>
+<a href="/AlunoDaianaParteFinal/aluno/aluno.jsp"></a>
 <br/>
 
 <h1>Arquivos</h1>

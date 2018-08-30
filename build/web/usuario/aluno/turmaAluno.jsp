@@ -1,8 +1,15 @@
- <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>SchoolShare | Turma</title>
-    </head>
-    <body>
-        <h1>Turma</h1>
-    </body>
 
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
+<%@page import="web.java.mapping.ListagemArquivos"%>
+
+<%@page import="web.java.mapping.ListagemArquivos"%> 
+
+<%@include file="/master/master.jsp" %>
+
+<a href="/AlunoDaianaParteFinal/aluno/turma.jsp"></a>
+
+        <title>SchoolShare | Turma</title>
+   
+        <h2>Sua Turma</h2>
+    

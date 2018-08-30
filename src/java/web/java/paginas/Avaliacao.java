@@ -14,6 +14,6 @@ public class Avaliacao extends HttpServlet{
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) 
             throws ServletException, IOException {
-       req.getRequestDispatcher("/aluno/avaliacao.jsp").include(req, resp);
+       req.getRequestDispatcher("/usuario/aluno/avaliacao.jsp").include(req, resp);
     }
 }

@@ -1,7 +1,7 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 
 <%@include file="/master/master.jsp" %>
-
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <section class="content-header">
   <h1>Acesso Aluno</h1>
   <ol class="breadcrumb">
