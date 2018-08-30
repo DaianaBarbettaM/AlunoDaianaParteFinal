@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author Alunos
  */
-@WebServlet(urlPatterns = "/index")
+@WebServlet(urlPatterns = "/home")
 
 public class Index extends HttpServlet {
 

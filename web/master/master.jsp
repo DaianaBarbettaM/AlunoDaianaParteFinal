@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>SchoolShare</title>
-        <%@include file="css.jsp" %>
+        <%@include file="/master/css.jsp" %>
     </head>
     <body class="hold-transition skin-blue sidebar-mini">
         <div class="wrapper">
@@ -13,7 +13,7 @@
                 <!-- Header Navbar: style can be found in header.less -->
                 <nav class="navbar navbar-static-top">
                     <!-- Logo -->
-                    <a href="/trabalhofinaljava/home" class="logo">
+                    <a href="/AlunoDaianaParteFinal/home" class="logo">
                         <!-- mini logo for sidebar mini 50x50 pixels -->
                         <span class="logo-mini"><b>School</b>Share</span>
                         <!-- logo for regular state and mobile devices -->
@@ -21,7 +21,7 @@
                     </a>
                 </nav>
             </header>
-            <%@include file="sidebar.jsp" %>
+            <%@include file="/master/sidebar.jsp" %>
 
             <div class="content-wrapper">
                 <section class="content-header">

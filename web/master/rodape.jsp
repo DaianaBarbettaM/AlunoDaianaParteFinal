@@ -22,7 +22,7 @@
 </div>
 <!-- ./wrapper -->
 
-<%@include file="script.jsp" %>
+<%@include file="/master/script.jsp" %>
 
 </body>
 </html>
