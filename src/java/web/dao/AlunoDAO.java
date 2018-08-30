@@ -96,7 +96,6 @@ public static AlunoBean obterPeloId(int id){
             alunos.setRua(resultSet.getString("rua"));
             alunos.setBairro(resultSet.getString("bairro"));
             alunos.setCidade(resultSet.getString("cidade"));
-            alunos.setPais(resultSet.getString("pais"));
             alunos.setTelefone(resultSet.getString("telefone"));
             
             
@@ -123,11 +122,10 @@ public boolean alterar(AlunoBean alunos){
         ps.setString(7,  alunos.getComplemento());
         ps.setString(8,  alunos.getBairro());
         ps.setString(9,  alunos.getCidade());
-        ps.setString(10, alunos.getPais());
-        ps.setString(11, alunos.getCodigoDeMatricula());
-        ps.setDouble(12, alunos.getFrequencia());
-        ps.setFloat (13, alunos.getNota());
-        ps.setString(14, alunos.getTelefone());
+        ps.setString(10, alunos.getCodigoDeMatricula());
+        ps.setDouble(11, alunos.getFrequencia());
+        ps.setFloat (12, alunos.getNota());
+        ps.setString(13, alunos.getTelefone());
         
         return ps.executeUpdate() == 1;
         

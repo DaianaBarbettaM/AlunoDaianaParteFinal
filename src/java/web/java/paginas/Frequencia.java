@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 public class Frequencia extends HttpServlet{
 
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp)
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
         req.getRequestDispatcher("/usuario/aluno/frequencia.jsp").include(req, resp);
     

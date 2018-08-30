@@ -7,9 +7,12 @@
 
 <%@include file="/master/master.jsp" %>
 
-<a href="/AlunoDaianaParteFinal/aluno/frequencia.jsp"></a>
+<a href="/AlunoDaianaParteFinal/frequencia.jsp"></a>
+<br/>
 
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>SchoolShare | Frequência</title>
    
         <h2>Frequência</h2>
-    
+</head>

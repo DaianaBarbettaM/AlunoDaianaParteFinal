@@ -10,13 +10,29 @@ public class AlunoBean{
     
     private int id; 
     private String nome, email, sobrenome, cpf, rg, login, senha, telefone, 
-            celular,  rua, bairro, cidade, complemento,
-            pais,   nomeDaMae, nomeDoPai, estadoNascimento,cidadeNascimento,
+            celular,  rua, bairro, cidade, complemento, cep, estado,
+            nomeDaMae, nomeDoPai, estadoNascimento,cidadeNascimento,
             nacionalidade , dataDeNascimento, codigoDeMatricula, grauEscolaridade;
     private char sexo;
     private byte tipo;
     private byte frequencia;
     private float nota;
+
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+
+    public String getCep() {
+        return cep;
+    }
+
+    public void setCep(String cep) {
+        this.cep = cep;
+    }
 
     public String getComplemento() {
         return complemento;
@@ -120,14 +136,6 @@ public class AlunoBean{
 
     public void setCidade(String cidade) {
         this.cidade = cidade;
-    }
-
-    public String getPais() {
-        return pais;
-    }
-
-    public void setPais(String pais) {
-        this.pais = pais;
     }
 
     public String getNomeDaMae() {
