@@ -14,7 +14,7 @@
                 <!-- Header Navbar: style can be found in header.less -->
                 <nav class="navbar navbar-static-top">
                     <!-- Logo -->
-                    <a href="/AlunoDaianaParteFinal/home" class="logo">
+                    <a href="/home" class="logo">
                         <!-- mini logo for sidebar mini 50x50 pixels -->
                         <span class="logo-mini"><b>School</b>Share</span>
                         <!-- logo for regular state and mobile devices -->

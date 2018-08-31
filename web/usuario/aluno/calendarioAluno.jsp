@@ -6,7 +6,7 @@
 
 <%@include file="/master/master.jsp" %>
 
-<a href="/AlunoDaianaParteFinal/calendarioAluno.jsp"></a>
+<a href="/calendarioAluno.jsp"></a>
 <br/>
 
 

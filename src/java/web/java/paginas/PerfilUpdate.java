@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package web.java.paginas;
+
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -15,15 +16,14 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author Alunos
  */
-@WebServlet (urlPatterns = "/calendario")
-public class Calendario extends HttpServlet{
+@WebServlet (urlPatterns = "/update")
+public class PerfilUpdate extends HttpServlet{
 
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) 
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) 
             throws ServletException, IOException {
-         resp.setContentType("text/html;charset=UTF-8");
-         req.getRequestDispatcher("/usuario/aluno/calendarioAluno.jsp").include(req, resp);
         
     }
-   
+    
+    
 }

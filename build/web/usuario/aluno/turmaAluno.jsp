@@ -7,7 +7,7 @@
 
 <%@include file="/master/master.jsp" %>
 
-<a href="/AlunoDaianaParteFinal/aluno/turma.jsp"></a>
+<a href="/aluno/turma.jsp"></a>
 
         <title>SchoolShare | Turma</title>
    

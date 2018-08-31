@@ -8,42 +8,42 @@
         </div>
         <ul class="sidebar-menu" data-widget="tree">
             <li>
-                <a href="/AlunoDaianaParteFinal/admin">
+                <a href="/admin">
                     <i class="fa fa-th"></i> <span>Área Restrita</span>
                     <span class="pull-right-container">
                     </span>
                 </a>
             </li>
             <li>
-                <a href="/AlunoDaianaParteFinal/perfil">
+                <a href="/perfil">
                     <i class="fa fa-th"></i> <span>Perfil</span>
                     <span class="pull-right-container">
                     </span>
                 </a>
             </li>
             <li>
-                <a href="/AlunoDaianaParteFinal/avaliacao">
+                <a href="/avaliacao">
                     <i class="fa fa-th"></i> <span>Avaliação</span>
                     <span class="pull-right-container">
                     </span>
                 </a>
             </li>
             <li>
-                <a href="/AlunoDaianaParteFinal/frequencia">
-                    <i class="fa fa-th"></i> <span>Frequencia</span>
+                <a href="/frequencia">
+                    <i class="fa fa-th"></i> <span>Frequência</span>
                     <span class="pull-right-container">
                     </span>
                 </a>
             </li>
             <li>
-                <a href="/AlunoDaianaParteFinal/calendario">
+                <a href="/calendario">
                     <i class="fa fa-th"></i> <span>Calendario</span>
                     <span class="pull-right-container">
                     </span>
                 </a>
             </li>
             <li>
-                <a href="/AlunoDaianaParteFinal/turma">
+                <a href="/turma">
                     <i class="fa fa-th"></i> <span>Turma</span>
                     <span class="pull-right-container">
                     </span>

@@ -7,7 +7,7 @@
 
 <%@include file="/master/master.jsp" %>
 
-<a href="/AlunoDaianaParteFinal/frequencia.jsp"></a>
+<a href="/frequencia.jsp"></a>
 <br/>
 
 <head>

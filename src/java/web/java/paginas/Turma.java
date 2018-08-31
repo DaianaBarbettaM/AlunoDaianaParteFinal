@@ -14,13 +14,10 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet(urlPatterns = "/turma")
 public class Turma extends HttpServlet {
-    @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response)
-        throws ServletException, IOException {
-        
-        PrintWriter out = response.getWriter();
-        out.println("Turma");
-        
-        response.sendRedirect("/usuario/aluno/turma.jsp");
+     @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) 
+            throws ServletException, IOException {
+         resp.setContentType("text/html;charset=UTF-8");
+ req.getRequestDispatcher("/usuario/aluno/turmaAluno.jsp").include(req, resp);
     }
 }

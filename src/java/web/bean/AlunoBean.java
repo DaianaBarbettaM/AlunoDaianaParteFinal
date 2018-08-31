@@ -12,11 +12,28 @@ public class AlunoBean{
     private String nome, email, sobrenome, cpf, rg, login, senha, telefone, 
             celular,  rua, bairro, cidade, complemento, cep, estado,
             nomeDaMae, nomeDoPai, estadoNascimento,cidadeNascimento,
-            nacionalidade , dataDeNascimento, codigoDeMatricula, grauEscolaridade;
+            nacionalidade , dataDeNascimento, codigoDeMatricula, grauEscolaridade,
+            escola, estudando;
     private char sexo;
     private byte tipo;
     private byte frequencia;
     private float nota;
+
+    public String getEscola() {
+        return escola;
+    }
+
+    public void setEscola(String escola) {
+        this.escola = escola;
+    }
+
+    public String getEstudando() {
+        return estudando;
+    }
+
+    public void setEstudando(String estudando) {
+        this.estudando = estudando;
+    }
 
     public String getEstado() {
         return estado;

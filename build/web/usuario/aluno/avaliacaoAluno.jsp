@@ -3,13 +3,13 @@
 
 <%@page import="web.java.mapping.ListagemArquivos"%>
 
-<%@page import="web.java.mapping.ListagemArquivos"%> 
-
 <%@include file="/master/master.jsp" %>
 
-<a href="/AlunoDaianaParteFinal/usuario/aluno/avaliacaoAluno.jsp"></a>
+<a href="/usuario/aluno/avaliacaoAluno.jsp"></a>
 
         <title>SchoolShare | Avaliação</title>
    
         <h2>Avaliação</h2>
     
+        <button></button>
+        
