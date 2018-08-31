@@ -1,4 +1,4 @@
-package web.java.paginas;
+package web.paginas;
 
 import java.io.IOException;
 import java.io.PrintWriter;

@@ -1,8 +1,8 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="web.bean.AlunoBean"%>
+<%@page import="web.paginas.PerfilUpdate"%>
 <%@page import="web.java.mapping.ListagemArquivos"%>
-
 <%@page import="web.java.mapping.ListagemArquivos"%> 
 
 <%@include file="/master/master.jsp" %>
