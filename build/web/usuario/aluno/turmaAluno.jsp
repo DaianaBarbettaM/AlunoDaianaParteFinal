@@ -13,3 +13,4 @@
    
         <h2>Sua Turma</h2>
     
+ <%@include file="/master/rodape.jsp" %>         

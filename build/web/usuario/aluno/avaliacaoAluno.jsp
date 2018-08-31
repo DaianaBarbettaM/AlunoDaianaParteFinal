@@ -11,5 +11,5 @@
    
         <h2>Avaliação</h2>
     
-        <button></button>
+<%@include file="/master/rodape.jsp" %>    
         

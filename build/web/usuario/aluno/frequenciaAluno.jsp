@@ -16,3 +16,4 @@
    
         <h2>Frequência</h2>
 </head>
+<%@include file="/master/rodape.jsp" %>    
