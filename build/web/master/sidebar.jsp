@@ -48,7 +48,14 @@
                     <span class="pull-right-container">
                     </span>
                 </a>
-            </li
+            </li>
+            <li>
+                <a href="/cadastro">
+                    <i class="fa fa-th"></i> <span>Cadastro Aluno</span>
+                    <span class="pull-right-container">
+                    </span>
+                </a>
+            </li>
         </ul>
     </section>
     <!-- /.sidebar -->

@@ -19,143 +19,173 @@
 
  <%AlunoBean aluno1 = new AlunoBean();%>  
  
- <table>
-       <thead>
- <div class="row">
-    <div class="col-md-6">
-        <div class="box box-primary">
-            <div class="box-header with-border">
-                <h3 class="box-title">Cadastro de Instituição</h3>
-            </div>
-            
-           <tr>
-                <th> ID: </th>
-                 <td><input type="text" id="campo-nome" name="nome"
-                   value="<%out.print(aluno1.getNome());%>" ></td>
-           </tr>
-           <tr>
-                <th> Nome: </th> 
-                <td><%out.print(aluno1.getNome());%></td>
-          </tr>
-           <tr>
-                <th> Sobrenome: </th>
-                <td> <%out.print(aluno1.getSobrenome());%> </td>
-           </tr>
-           <tr>
-                <th> CPF: </th>
-                <td> <%out.print(aluno1.getCpf());%> </td>
-           </tr>
-           <tr>
-                <th> RG: </th>
-                <td> <%out.print(aluno1.getRg());%> </td>
-           </tr>
-           <tr>
-                <th> Sexo: </th>
-                <td> <%out.print(aluno1.getSexo());%> </td>
-           </tr>
-           <tr>
-                <th> Nome da mãe: </th>
-                <td> <%out.print(aluno1.getNomeDaMae());%> </td>
-           </tr>
-           <tr>
-                <th> Nome do pai: </th>
-                <td> <%out.print(aluno1.getNomeDoPai());%> </td>
-           </tr>
-           <tr>
-                <th> Data de nascimento: </th>
-                <td> <%out.print(aluno1.getDataDeNascimento());%> </td>
-           </tr>
-           
-           <tr>
-                <th> Cidade de nascimento: </th>
-                <td> <%out.print(aluno1.getCidadeNascimento());%> </td>
-           </tr>
-           <tr>
-                <th> Estado de nascimento: </th>
-                <td> <%out.print(aluno1.getEstadoNascimento());%> </td>
-           </tr>
-           <tr>
-                <th> Nascionalidade: </th>
-                <td> <%out.print(aluno1.getNacionalidade());%> </td>
-           </tr>
-        </thead>
-    </table>
-          
-           <h2>Endereço</h2>  
-    <table>
-       <thead>
-           <tr>
-                <th> Cep: </th>
-                <td><input type="text" id="campo-cep" name="cep"
-                   value="<%out.print(aluno1.getCep());%>" ></td>
-           </tr>
-           <tr>
-                <th> Rua: </th>
-                <td><input type="text" id="campo-rua" name="rua"
-                        value=" <%out.print(aluno1.getRua());%>"></td>
-           </tr>
-           <tr>
-                <th> Complemento: </th>
-                <td> <input type="text" id="campo-complemento" name="complemento"
-                        value="<%out.print(aluno1.getComplemento());%>"></td>
-           </tr>
-           <tr>
-                <th> Bairro: </th>
-                <td> <input type="text" id="campo-bairro" name="bairro"
-                        value="<%out.print(aluno1.getBairro());%>"></td>
-           </tr>
-           <tr>
-                <th> Cidade: </th>
-                <td> <input type="text" id="campo-cidade" name="cidade"
-                        value="<%out.print(aluno1.getCidade());%>"></td>
-           </tr>
-           <tr>
-                <th> Estado: </th>
-                <td> <input type="text" id="campo-estado" name="estado"
-                        value="<%out.print(aluno1.getEstado());%>"></td>
-           </tr>
-       </thead>
-     </table>
-           <button>Alterar</button>
-           
-           <h2>Dados de Contato</h2>
-           <table>
-               <thead>
-                   <tr>
-                       <th>E-mail: </th>
-                       <td><%out.print(aluno1.getEmail());%> </td>
-                   </tr>
-                   <tr>
-                       <th>Telefone: </th>
-                       <td><input type="text" id="campo-telefone" name="telefone" 
-                               value="<%out.print(aluno1.getTelefone());%>"></td>
-                   </tr>
-                   <tr>
-                       <th>Celular: </th>
-                       <td><input type="text" id="campo-celular" name="celular" 
-                               value="<%out.print(aluno1.getCelular());%>"></td>
-                   </tr>
-               </thead>
-             </table>
-              <button>Alterar</button>
-              
-              <h2>Escolaridade</h2>
-                   <table>
-                       <thead>
-                           <tr>
-                               <th>Grau:</th>
-                               <td><%out.print(aluno1.getGrauEscolaridade());%></td>
-                             </tr>
-                          <tr>
-                               <th>Estudando:</th>
-                               <td><%out.print(aluno1.getEstudando());%></td>
-                             </tr>
-                             <tr>
-                               <th>Escola:</th>
-                               <td><%out.print(aluno1.getEscola());%></td>
-                             </tr>
-                       </thead>
-                   </table>
+ <div>
+        <label for="formNome">Nome</label>
+        <input type="text" class="form-control" id="formNome"
+               name="formNome">
+        </div>
  
+ <div>
+        <label for="formSobrenome">Sobrenome</label>
+        <input type="text" class="form-control" id="formSobrenome"
+               name="formSobrenome">
+        </div>
  
+ <div>
+        <label for="formCPF">CPF</label>
+        <input type="text" class="form-control" id="formCPF"
+               name="formCPF">
+        </div>
+  <div>
+        <label for="formRG">RG</label>
+        <input type="text" class="form-control" id="formRG"
+               name="formRG">
+        </div>
+ 
+  <div>
+        <label for="formSexo">Sexo</label>
+        <select id="formSexo" name="formSexo" class="form-control">
+            <option value="Feminino">Feminino</option>
+            <option value="Masculino">Masculino</option>
+        </select>
+        </div>
+  <div>
+        <label for="formNomeDaMae">Nome da Mãe</label>
+        <input type="text" class="form-control" id="formNomeDaMae"
+               name="formNomeDaMae">
+        </div>
+  <div>
+        <label for="formNomeDoPai">Nome do Pai</label>
+        <input type="text" class="form-control" id="formNomeDoPai"
+               name="formNomeDoPai">
+        </div>
+  <div>
+        <label for="formDataDeNascimento">Data de Nascimento</label>
+        <input type="text" class="form-control" id="formDataDeNascimento"
+               name="formDataDeNascimento" placeholder="01/02/1991">
+        </div>
+  <div>
+        <label for="formCidadeDeNascimento">Cidade de nascimento</label>
+        <input type="text" class="form-control" id="formCidadeDeNascimento"
+               name="formCidadeDeNascimento">
+        </div>
+  <div>
+        <label for="formEstadoDeNascimento">Estado de nascimento</label>
+        <input type="text" class="form-control" id="formEstadoDeNascimento"
+               name="formEstadoDeNascimento">
+        </div>
+  <div>
+        <label for="formNascionalidade">Nascionalidade</label>
+        <input type="text" class="form-control" id="formNascionalidade"
+               name="formNascionalidade">
+        </div>
+ 
+ <h1>Endereço</h1>
+ 
+  <div>
+        <label for="formCep">Cep</label>
+        <input type="text" class="form-control" id="formCep"
+               name="formCep">
+        </div>
+ 
+  <div>
+        <label for="formEndereco">Endereço</label>
+        <input type="text" class="form-control" name="formEndereco" 
+               id="formEndereco" 
+               placeholder="Ex: Rua Roberto de Machado">
+  </div>
+ 
+  <div>
+        <label for="formComplemento">Complemento</label>
+        <input type="text" class="form-control" id="formComplemento" 
+               name="formComplemento">
+  </div>
+ 
+ <div>
+        <label for="formBairro">Bairro</label>
+        <input type="text" class="form-control" id="formBairro" 
+               name="formBairro">
+  </div>
+ <div>
+     <label for="formCidade">Cidade</label>
+     <input type="text" class="form-control" id="formCidade"
+            name="formCidade">
+ </div>
+ 
+ <div>
+     <label for="formEstado">Estado</label>
+      <select id="formEstado" name="formEstado" class="form-control">
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                        </select>
+ </div>
+ 
+ <h1>Dados de Contato</h1>
+ 
+ <div>
+     <label for="formEmail">E-mail</label>
+     <input type="text" class="form-control" id="formEmail"
+            name="formEmail">
+ </div>
+ 
+ <div>
+     <label for="formTelefone">Telefone</label>
+     <input type="text" class="form-control" id="formTelefone"
+            name="formTelefone">
+ </div>
+ 
+ <div>
+     <label for="formCelular">Celular</label>
+     <input type="text" class="form-control" id="formCelular"
+            name="formCelular">
+ </div>
+ 
+ <h1>Escolaridade</h1>
+ 
+ <div>
+     <label for="formGrau">Grau</label>
+     <select id="formGrau" name="formGrau" class="form-control">
+      <option value="Educação Fundamental Completo">Educação Fundamental Completo</option>
+      <option value="Educação Fundamental Incompleto">Educação Fundamental Incompleto</option>
+      <option value="Ensino Médio Completo">Ensino Médio Completo</option>
+      <option value="Ensino Médio Incompleto">Ensino Médio Incompleto</option>
+      <option value="Ensino Superior Completo">Ensino Superior Completo</option>
+      <option value="Ensino Superio Incomleto">Ensino Superior Incompleto</option>
+        </select>
+ </div>
+ 
+ <div>
+     <label for="formEstudando">Estudando</label>
+     <select id="formEstudando" name="formEstudando" class="form-control">
+            <option value="Sim">Sim</option>
+            <option value="Não">Não</option>
+        </select>
+ </div>
  <%@include file="/master/rodape.jsp" %>  
+    
+   
