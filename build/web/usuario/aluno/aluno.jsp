@@ -35,6 +35,10 @@
             <a class="users-list-name" href="turma.jsp"></a>
             <span class="users-list-date">Turma</span>
           </li>
+          <li>
+              <a class="users-list-name" href="cadastroAluno.jsp"></a>
+              <span class="users-list-date">Cadastro Aluno</span>
+          </li>
         </ul>
         <!-- /.users-list -->
       </div>

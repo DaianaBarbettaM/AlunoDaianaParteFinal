@@ -11,6 +11,6 @@
 
         <title>SchoolShare | Turma</title>
    
-        <h2>Sua Turma</h2>
+        <h1>Sua Turma</h1>
     
  <%@include file="/master/rodape.jsp" %>         

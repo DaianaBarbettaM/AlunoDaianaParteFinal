@@ -9,7 +9,7 @@
 
         <title>SchoolShare | Avaliação</title>
    
-        <h2>Avaliação</h2>
+        <h1>Avaliação</h1>
     
 <%@include file="/master/rodape.jsp" %>    
         

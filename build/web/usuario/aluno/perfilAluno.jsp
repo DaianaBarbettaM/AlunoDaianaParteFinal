@@ -11,7 +11,7 @@
 
         <title>SchoolShare | Perfil</title>
    
-        <h2>Perfil</h2>
+        <h1>Perfil</h1>
         
     <%AlunoBean aluno1=new AlunoBean(); %>
     
