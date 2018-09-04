@@ -170,11 +170,7 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `mydb`;
-INSERT INTO `mydb`.`pessoa` (`id_pessoa`, `nome`, `email`, `sexo`, `data_nascimento`, `tipo`, `login`, `senha`, `ativo`, `cpf`, `rg`, `nome_pai`, `nome_mae`, `cidade_nascimento`,
- `estado_nascimento`, `nacionalidade`, `cep`, `rua`, `bairro`, `complemento`, `cidade`, `estado`, `telefone`, `celular`) VALUES 
-(01, "java", "java@entra.com.br", "fem","2018-02-02" , "tipo", 'Admin', '6a4e4054fa6e08046c40df5745530cdde6e4e091de831d04d7d902635b9350ac', 
-"02020202020", "123456", "pai", "mae", "blumenau", "brasileira", "89037260", "rua", "bairro", "ap", "blumenau", "sc", "33273588", 
-"985648573");
+
 
 COMMIT;
 

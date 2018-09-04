@@ -56,6 +56,13 @@
                     </span>
                 </a>
             </li>
+            <li>
+                <a href="/usuario/aluno/telaCadastro.jsp">
+                    <i class="fa fa-th"></i> <span>Cadastro Modelo</span>
+                    <span class="pull-right-container">
+                    </span>
+                </a>
+            </li>
         </ul>
     </section>
     <!-- /.sidebar -->

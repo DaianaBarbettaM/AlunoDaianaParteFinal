@@ -1,7 +1,7 @@
 <%-- 
     Document   : cadastroDaiana
     Created on : 03/09/2018, 08:24:29
-    Author     : Alunos
+    Author     : Daiana
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -9,11 +9,12 @@
 <%@page import="web.paginas.PerfilUpdate"%>
 <%@page import="web.java.mapping.ListagemArquivos"%>
 <%@page import="web.java.mapping.ListagemArquivos"%> 
+<%@page import="web.paginas.AlunoStore"%>
 <%@include file="/master/master.jsp" %>
 
 <a href="/usuario/aluno/cadastroAluno.jsp"></a>
 
-<title>SchoolShare | Perfil</title>
+<title>SchoolShare | Cadastro</title>
   
 <h1>Cadastro Aluno</h1>
 
@@ -22,7 +23,7 @@
  <div>
         <label for="formNome">Nome</label>
         <input type="text" class="form-control" id="formNome"
-               name="formNome">
+               name="formNome" >
         </div>
  
  <div>
@@ -75,9 +76,9 @@
                name="formEstadoDeNascimento">
         </div>
   <div>
-        <label for="formNascionalidade">Nascionalidade</label>
-        <input type="text" class="form-control" id="formNascionalidade"
-               name="formNascionalidade">
+        <label for="formNacionalidade">Nacionalidade</label>
+        <input type="text" class="form-control" id="formNacionalidade"
+               name="formNacionalidade">
         </div>
  
  <h1>Endereço</h1>
@@ -186,6 +187,8 @@
             <option value="Não">Não</option>
         </select>
  </div>
+<input class='btn btn-success' type='submit' value='Cadastrar'
+        required='required'>
  <%@include file="/master/rodape.jsp" %>  
     
    
