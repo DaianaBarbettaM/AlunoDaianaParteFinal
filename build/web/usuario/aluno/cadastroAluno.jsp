@@ -14,106 +14,150 @@
 
 <a href="/usuario/aluno/cadastroAluno.jsp"></a>
 
-<title>SchoolShare | Cadastro</title>
-  
-<h1>Cadastro Aluno</h1>
 
- <%AlunoBean aluno1 = new AlunoBean();%>  
+<title>SchoolShare | Cadastro</title>
+
+  <section class="content-header">
+    <h1>Aluno <small>Cadastro</small></h1>
+    <ol class="breadcrumb">
+        <li><a href="/index.jsp"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active">Admin</li>
+    </ol>
+</section>
+
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="box box-primary">
+            <div class="box-header with-border">
+                
+    <h2>Cadastro Aluno</h2>
+
  
- <div>
-        <label for="formNome">Nome</label>
+ 
+ <div class="box-body">
+                    <div class="form-group">
+        <label for="formNome">Nome<span class='text-danger font-weight-bold'>*</span>
+        </label>
         <input type="text" class="form-control" id="formNome"
                name="formNome" >
-        </div>
+                    </div></div>
  
- <div>
-        <label for="formSobrenome">Sobrenome</label>
+<div class="box-body">
+                    <div class="form-group">
+        <label for="formSobrenome">Sobrenome<span class='text-danger font-weight-bold'>*</span>
+        </label>
         <input type="text" class="form-control" id="formSobrenome"
                name="formSobrenome">
-        </div>
+                    </div></div>
  
- <div>
-        <label for="formCPF">CPF</label>
+ <div class="box-body">
+                    <div class="form-group">
+        <label for="formCPF">CPF<span class='text-danger font-weight-bold'>*</span>
+        </label>
         <input type="text" class="form-control" id="formCPF"
                name="formCPF">
-        </div>
-  <div>
+                    </div></div>
+    
+  <div class="box-body">
+                    <div class="form-group">
         <label for="formRG">RG</label>
         <input type="text" class="form-control" id="formRG"
                name="formRG">
-        </div>
+                    </div></div>
  
-  <div>
-        <label for="formSexo">Sexo</label>
+  <div class="box-body">
+                    <div class="form-group">
+        <label for="formSexo">Sexo<span class='text-danger font-weight-bold'>*</span>
+        </label>
         <select id="formSexo" name="formSexo" class="form-control">
             <option value="Feminino">Feminino</option>
             <option value="Masculino">Masculino</option>
         </select>
-        </div>
-  <div>
+                    </div></div>
+    
+  <div class="box-body">
+                    <div class="form-group">
         <label for="formNomeDaMae">Nome da Mãe</label>
         <input type="text" class="form-control" id="formNomeDaMae"
                name="formNomeDaMae">
-        </div>
-  <div>
+                    </div></div>
+ <div class="box-body">
+                    <div class="form-group">
         <label for="formNomeDoPai">Nome do Pai</label>
         <input type="text" class="form-control" id="formNomeDoPai"
                name="formNomeDoPai">
-        </div>
-  <div>
+                    </div></div>
+  <div class="box-body">
+                    <div class="form-group">
         <label for="formDataDeNascimento">Data de Nascimento</label>
         <input type="text" class="form-control" id="formDataDeNascimento"
                name="formDataDeNascimento" placeholder="01/02/1991">
-        </div>
-  <div>
+                    </div></div>
+  <div class="box-body">
+                    <div class="form-group">
         <label for="formCidadeDeNascimento">Cidade de nascimento</label>
         <input type="text" class="form-control" id="formCidadeDeNascimento"
                name="formCidadeDeNascimento">
-        </div>
-  <div>
+                    </div></div>
+  <div class="box-body">
+                    <div class="form-group">
         <label for="formEstadoDeNascimento">Estado de nascimento</label>
         <input type="text" class="form-control" id="formEstadoDeNascimento"
                name="formEstadoDeNascimento">
-        </div>
-  <div>
+                    </div></div>
+  <div class="box-body">
+                    <div class="form-group">
         <label for="formNacionalidade">Nacionalidade</label>
         <input type="text" class="form-control" id="formNacionalidade"
                name="formNacionalidade">
-        </div>
+                    </div></div>
  
- <h1>Endereço</h1>
+ <h2>Endereço</h2>
  
-  <div>
-        <label for="formCep">Cep</label>
+  <div class="box-body">
+                    <div class="form-group">
+        <label for="formCep">Cep<span class='text-danger font-weight-bold'>*</span>
+        </label>
         <input type="text" class="form-control" id="formCep"
                name="formCep">
-        </div>
+                    </div></div>
  
-  <div>
-        <label for="formEndereco">Endereço</label>
+  <div class="box-body">
+                    <div class="form-group">
+        <label for="formEndereco">Endereço<span class='text-danger font-weight-bold'>*</span>
+        </label>
         <input type="text" class="form-control" name="formEndereco" 
                id="formEndereco" 
                placeholder="Ex: Rua Roberto de Machado">
-  </div>
+                    </div></div>
  
-  <div>
-        <label for="formComplemento">Complemento</label>
+  <div class="box-body">
+                    <div class="form-group">
+        <label for="formComplemento">Complemento<span class='text-danger font-weight-bold'>*</span>
+        </label>
         <input type="text" class="form-control" id="formComplemento" 
                name="formComplemento">
-  </div>
+                    </div></div>
  
- <div>
-        <label for="formBairro">Bairro</label>
+ <div class="box-body">
+                    <div class="form-group">
+        <label for="formBairro">Bairro<span class='text-danger font-weight-bold'>*</span>
+        </label>
         <input type="text" class="form-control" id="formBairro" 
                name="formBairro">
-  </div>
- <div>
-     <label for="formCidade">Cidade</label>
+                    </div></div>
+ 
+ <div class="box-body">
+                    <div class="form-group">
+     <label for="formCidade">Cidade<span class='text-danger font-weight-bold'>*</span>
+     </label>
      <input type="text" class="form-control" id="formCidade"
             name="formCidade">
- </div>
+                    </div></div>
  
- <div>
+ <div class="box-body">
+                    <div class="form-group">
      <label for="formEstado">Estado</label>
       <select id="formEstado" name="formEstado" class="form-control">
                             <option value="AC">Acre</option>
@@ -144,31 +188,38 @@
                             <option value="SE">Sergipe</option>
                             <option value="TO">Tocantins</option>
                         </select>
- </div>
+                    </div></div>
  
- <h1>Dados de Contato</h1>
+ <h2>Dados de Contato</h2>
  
- <div>
-     <label for="formEmail">E-mail</label>
+ <div class="box-body">
+                    <div class="form-group">
+     <label for="formEmail">E-mail<span class='text-danger font-weight-bold'>*</span>
+     </label>
      <input type="text" class="form-control" id="formEmail"
             name="formEmail">
- </div>
+                    </div></div>
  
- <div>
-     <label for="formTelefone">Telefone</label>
+ <div class="box-body">
+                    <div class="form-group">
+     <label for="formTelefone">Telefone<span class='text-danger font-weight-bold'>*</span>
+     </label>
      <input type="text" class="form-control" id="formTelefone"
             name="formTelefone">
- </div>
+                    </div></div>
  
- <div>
-     <label for="formCelular">Celular</label>
+ <div class="box-body">
+                    <div class="form-group">
+     <label for="formCelular">Celular<span class='text-danger font-weight-bold'>*</span>
+     </label>
      <input type="text" class="form-control" id="formCelular"
             name="formCelular">
- </div>
+                    </div></div>
  
- <h1>Escolaridade</h1>
+ <h2>Escolaridade</h2>
  
- <div>
+ <div class="box-body">
+                    <div class="form-group">
      <label for="formGrau">Grau</label>
      <select id="formGrau" name="formGrau" class="form-control">
       <option value="Educação Fundamental Completo">Educação Fundamental Completo</option>
@@ -178,17 +229,27 @@
       <option value="Ensino Superior Completo">Ensino Superior Completo</option>
       <option value="Ensino Superio Incomleto">Ensino Superior Incompleto</option>
         </select>
- </div>
+                    </div></div>
  
- <div>
-     <label for="formEstudando">Estudando</label>
-     <select id="formEstudando" name="formEstudando" class="form-control">
-            <option value="Sim">Sim</option>
-            <option value="Não">Não</option>
-        </select>
+  <div>
+     <label for="checkEstudando">Estuda Atualmente<span class='text-danger font-weight-bold'>*</span>
+         <br>
+         <input type="checkbox" id="formEstudando" name="estudando">Sim
+     <br>
+     <input type="checkbox" id="formNaoEstudando" name=" naoEstudando">Não</label>
  </div>
-<input class='btn btn-success' type='submit' value='Cadastrar'
-        required='required'>
+ <br>
+ 
+ <div class="form-group">
+       <label for="checkAtivoAluno">
+       <input type="checkbox" id="checkAtivoAluno" name="AlunoCheckAtivo">&nbsp;&nbsp;Ativo</label>
+                    </div>
+                    
+<div class="box-footer">
+                    <button type="submit" class="btn btn-primary">Cadastrar</button>
+                    <button type="reset" class="btn btn-primary">Limpar Campos</button>
+                </div>
+ 
  <%@include file="/master/rodape.jsp" %>  
     
    
