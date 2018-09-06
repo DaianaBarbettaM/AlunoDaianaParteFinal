@@ -30,13 +30,9 @@
     <div class="col-md-6">
         <div class="box box-primary">
             <div class="box-header with-border">
-                <form action="/validacaoAluno" method="POST" role="form">
-                <div class="box-body">
-                    <div>
-    <h2>Cadastro Aluno</h2>
+                <h3 class="box-title">Cadastro de Alunos</h3>
+            </div>
 
- 
- 
  <div class="box-body">
                     <div class="form-group">
         <label for="formNome">Nome<span class='text-danger font-weight-bold'>*</span>
@@ -68,15 +64,13 @@
                name="formRG">
                     </div></div>
  
-  <div class="box-body">
-                    <div class="form-group">
-        <label for="formSexo">Sexo<span class='text-danger font-weight-bold'>*</span>
-        </label>
-        <select id="formSexo" name="formSexo" class="form-control">
-            <option value="Feminino">Feminino</option>
-            <option value="Masculino">Masculino</option>
-        </select>
-                    </div></div>
+ <div>
+     <label for="formSexo">Sexo<span class='text-danger font-weight-bold'>*</span></label>
+     <select id="formSexo" name="formSexo" class="form-control">
+      <option value="Feminino">Feminino</option>
+       <option value="Masculino">Masculino</option>
+                        </select>
+                    </div>
     
   <div class="box-body">
                     <div class="form-group">
@@ -235,16 +229,13 @@
  
   <div>
      <label for="checkEstudando">Estuda Atualmente<span class='text-danger font-weight-bold'>*</span>
-         <br>
-         <input type="checkbox" id="formEstudando" name="estudando">Sim
-     <br>
-     <input type="checkbox" id="formNaoEstudando" name=" naoEstudando">Não</label>
+         <input type="radio" id="formEstudando" name="estudando">
  </div>
  <br>
  
  <div class="form-group">
        <label for="checkAtivoAluno">
-       <input type="checkbox" id="checkAtivoAluno" name="AlunoCheckAtivo">&nbsp;&nbsp;Ativo</label>
+       <input type="radio" id="checkAtivoAluno" name="AlunoRadioAtivo">&nbsp;&nbsp;Ativo</label>
                     </div>
                     
 <div class="box-footer">
