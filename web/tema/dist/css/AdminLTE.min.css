@@ -198,11 +198,8 @@ position:absolute;top:9px;right:7px;text-align:center;font-size:9px;padding:2px 
 .box .knob-label{text-align:center;color:#333;font-weight:100;font-size:12px;margin-bottom:0.3em}.box>.overlay,.overlay-wrapper>.overlay,.box>.loading-img,.overlay-wrapper>.loading-img{position:absolute;top:0;left:0;width:100%;height:100%}.box .overlay,.overlay-wrapper .overlay{z-index:50;background:rgba(255,255,255,0.7);border-radius:3px}.box .overlay>.fa,.overlay-wrapper .overlay>.fa{position:absolute;top:50%;left:50%;margin-left:-15px;margin-top:-15px;color:#000;font-size:30px}.box .overlay.dark,.overlay-wrapper .overlay.dark{background:rgba(0,0,0,0.5)}
 .box-header:before,.box-body:before,.box-footer:before,.box-header:after,.box-body:after,.box-footer:after{content:" ";display:table}
 .box-header:after,.box-body:after,.box-footer:after{clear:both}.box-header{color:#444;display:block;padding:10px;position:relative}
-.box-header.with-border{
-    border-bottom:1px solid #f4f4f4;
-    text-align: center;
-}
-.collapsed-box .box-header.with-border{
+
+.collapsed-box{
     border-bottom:none
 }
 .box-header>.fa,.box-header>.glyphicon,.box-header>.ion,.box-header .box-title{

@@ -30,7 +30,9 @@
     <div class="col-md-6">
         <div class="box box-primary">
             <div class="box-header with-border">
-                
+                <form action="/validacaoAluno" method="POST" role="form">
+                <div class="box-body">
+                    <div>
     <h2>Cadastro Aluno</h2>
 
  
@@ -249,6 +251,9 @@
                     <button type="submit" class="btn btn-primary">Cadastrar</button>
                     <button type="reset" class="btn btn-primary">Limpar Campos</button>
                 </div>
+                    </div>
+                </div>
+                </form>
  
  <%@include file="/master/rodape.jsp" %>  
     

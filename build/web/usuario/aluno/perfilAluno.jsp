@@ -29,6 +29,9 @@
         <div class="box box-primary">
             <div class="box-header with-border">
                 
+                <form action="/validacaoAluno" method="POST" role="form">
+                <div class="box-body">
+                    <div>
     <table>
        <thead>
            <tr>
@@ -192,5 +195,7 @@
             </div>
         </div>
     </div>
+        </div>
+ </form>
        
           <%@include file="/master/rodape.jsp" %>     
