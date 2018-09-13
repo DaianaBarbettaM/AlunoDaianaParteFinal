@@ -10,6 +10,30 @@
         <title>SchoolShare | Avaliação</title>
    
         <h1>Avaliação</h1>
+        
+        
+        <table>
+       <thead>
+           <tr>
+               <th>Otimo</th>
+               <td> </td>
+           </tr>
+           <tr>
+               <th>Bom</th>
+               <td>
+               <input type="radio" id="checkAtivoAluno" name="AlunoRadioAtivo">&nbsp;&nbsp;Ativo
+               </td>
+           </tr>
+       </thead>
+        </table>
+        
+        
+        
+        
+        
+        
+        
+        <input type="radio" id="checkAtivoAluno" name="AlunoRadioAtivo">&nbsp;&nbsp;Ativo
     
 <%@include file="/master/rodape.jsp" %>    
         
