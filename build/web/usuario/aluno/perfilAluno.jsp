@@ -36,52 +36,54 @@
        <thead>
            <tr>
                 <th> ID: </th>
-                <td> <%out.print(aluno.getId());%> </td>
+                <th><%out.print(aluno.getId());%> <th>
+                    <br>
            </tr>
+      
            <tr>
                 <th> Nome: </th> 
-                <td><%out.print(aluno.getNome());%></td>
+                <th><%out.print(aluno.getNome());%></th>
           </tr>
            <tr>
                 <th> Sobrenome: </th>
-                <td> <%out.print(aluno.getSobrenome());%> </td>
+                <th><%out.print(aluno.getSobrenome());%></th>
            </tr>
            <tr>
-                <th> CPF: </th>
-                <td> <%out.print(aluno.getCpf());%> </td>
+                <th> CPF:  </th>
+                <th><%out.print(aluno.getCpf());%></th>
            </tr>
            <tr>
                 <th> RG: </th>
-                <td> <%out.print(aluno.getRg());%> </td>
+                <th><%out.print(aluno.getRg());%></th> 
            </tr>
            <tr>
                 <th> Sexo: </th>
-                <td> <%out.print(aluno.getSexo());%> </td>
+                <th><%out.print(aluno.getSexo());%></th>
            </tr>
            <tr>
                 <th> Nome da mãe: </th>
-                <td> <%out.print(aluno.getNomeDaMae());%> </td>
+                <th><%out.print(aluno.getNomeDaMae());%></th>
            </tr>
            <tr>
                 <th> Nome do pai: </th>
-                <td> <%out.print(aluno.getNomeDoPai());%> </td>
+                <th><%out.print(aluno.getNomeDoPai());%></th>
            </tr>
            <tr>
                 <th> Data de nascimento: </th>
-                <td> <%out.print(aluno.getDataDeNascimento());%> </td>
+                <th><%out.print(aluno.getDataDeNascimento());%></th>
            </tr>
            
            <tr>
                 <th> Cidade de nascimento: </th>
-                <td> <%out.print(aluno.getCidadeNascimento());%> </td>
+                <th> <%out.print(aluno.getCidadeNascimento());%> </th>
            </tr>
            <tr>
                 <th> Estado de nascimento: </th>
-                <td> <%out.print(aluno.getEstadoNascimento());%> </td>
+                <th> <%out.print(aluno.getEstadoNascimento());%> </th>
            </tr>
            <tr>
                 <th> Nacionalidade: </th>
-                <td> <%out.print(aluno.getNacionalidade());%> </td>
+                <th> <%out.print(aluno.getNacionalidade());%> </th>
            </tr>
         </thead>
     </table>
@@ -91,33 +93,33 @@
        <thead>
            <tr>
                 <th> Cep: </th>
-                <td><input type="text" id="campo-cep" name="cep"
-                   value="<%out.print(aluno.getCep());%>" ></td>
+                <th><input type="text" id="campo-cep" name="cep"
+                   value="<%out.print(aluno.getCep());%>" ></th>
            </tr>
            <tr>
                 <th> Rua: </th>
-                <td><input type="text" id="campo-rua" name="rua"
-                        value=" <%out.print(aluno.getRua());%>"></td>
+                <th><input type="text" id="campo-rua" name="rua"
+                        value=" <%out.print(aluno.getRua());%>"></th>
            </tr>
            <tr>
                 <th> Complemento: </th>
-                <td> <input type="text" id="campo-complemento" name="complemento"
-                        value="<%out.print(aluno.getComplemento());%>"></td>
+                <th> <input type="text" id="campo-complemento" name="complemento"
+                        value="<%out.print(aluno.getComplemento());%>"></th>
            </tr>
            <tr>
                 <th> Bairro: </th>
-                <td> <input type="text" id="campo-bairro" name="bairro"
-                        value="<%out.print(aluno.getBairro());%>"></td>
+                <th> <input type="text" id="campo-bairro" name="bairro"
+                            value="<%out.print(aluno.getBairro());%>"></th>
            </tr>
            <tr>
                 <th> Cidade: </th>
-                <td> <input type="text" id="campo-cidade" name="cidade"
-                        value="<%out.print(aluno.getCidade());%>"></td>
+                <th> <input type="text" id="campo-cidade" name="cidade"
+                        value="<%out.print(aluno.getCidade());%>"></th>
                 
            </tr>
            <tr>
                 <th> Estado: </th>
-                <td> 
+                <th> 
                 <select id="formEstado" name="formEstado" class="form-control"
                         value="<%out.print(aluno.getEstado());%>">
                             <option value="AC">Acre</option>
@@ -147,7 +149,7 @@
                             <option value="SP">São Paulo</option>
                             <option value="SE">Sergipe</option>
                             <option value="TO">Tocantins</option>
-                        </select></td>
+                </select></th>
  
            </tr>
        </thead>
@@ -159,17 +161,17 @@
                <thead>
                    <tr>
                        <th>E-mail: </th>
-                       <td><%out.print(aluno.getEmail());%> </td>
+                       <th><%out.print(aluno.getEmail());%> </th>
                    </tr>
                    <tr>
                        <th>Telefone: </th>
-                       <td><input type="text" id="campo-telefone" name="telefone" 
-                               value="<%out.print(aluno.getTelefone());%>"></td>
+                       <th><input type="text" id="campo-telefone" name="telefone" 
+                               value="<%out.print(aluno.getTelefone());%>"></th>
                    </tr>
                    <tr>
                        <th>Celular: </th>
-                       <td><input type="text" id="campo-celular" name="celular" 
-                               value="<%out.print(aluno.getCelular());%>"></td>
+                       <th><input type="text" id="campo-celular" name="celular" 
+                               value="<%out.print(aluno.getCelular());%>"></th>
                    </tr>
                </thead>
              </table>
@@ -180,15 +182,15 @@
                        <thead>
                            <tr>
                                <th>Grau:</th>
-                               <td><%out.print(aluno.getGrauEscolaridade());%></td>
+                               <th><%out.print(aluno.getGrauEscolaridade());%></th>
                              </tr>
                           <tr>
                                <th>Estudando:</th>
-                               <td><%out.print(aluno.getEstudando());%></td>
+                               <th><%out.print(aluno.getEstudando());%></th>
                              </tr>
                              <tr>
                                <th>Escola:</th>
-                               <td><%out.print(aluno.getEscola());%></td>
+                               <th><%out.print(aluno.getEscola());%></th>
                              </tr>
                        </thead>
                    </table>

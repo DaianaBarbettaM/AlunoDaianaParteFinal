@@ -28,6 +28,25 @@
     </div>
 </div>
         
+        
+        
+        
+        <div>
+            <table >
+                <tr>
+                    <td><th>Muito bom</th> <th>Bom</th> <th>Ruim</th> <th>Muito ruim</th></td> 
+                </tr>
+            </table>
+        </div>
+       
+        
+           <tr>
+           <label>Como foi a aula?</label>
+            <input type="radio" id="checkAtivoAluno" name="AlunoRadioAtivo">&nbsp;&nbsp;Ativo
+            </tr>
+           
+      
+   
     
 <%@include file="/master/rodape.jsp" %>    
         

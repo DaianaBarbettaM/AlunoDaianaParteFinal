@@ -9,7 +9,6 @@
 
         <title>SchoolShare | Avaliação</title>
    
-<<<<<<< HEAD
         <section class="content-header">
     <h1>Professores <small>Cadastro</small></h1>
     <ol class="breadcrumb">
@@ -29,41 +28,25 @@
     </div>
 </div>
         
-=======
-        <h1>Avaliação</h1>
         
         
-        <table>
-       <thead>
+        
+        <div>
+            <table >
+                <tr>
+                    <td><th>Muito bom</th> <th>Bom</th> <th>Ruim</th> <th>Muito ruim</th></td> 
+                </tr>
+            </table>
+        </div>
+       
+        
            <tr>
-               <th>Otimo</th>
-               <td> </td>
-           </tr>
-           <tr>
-               <th>Bom</th>
-               <td>
-               <input type="radio" id="checkAtivoAluno" name="AlunoRadioAtivo">&nbsp;&nbsp;Ativo
-               </td>
-           </tr>
-           <tr>
-               <th>Ruim</th>
-               <td> </td>
-           </tr>
-           <tr>
-               <th>Péssimo</th>
-               <td> </td>
-           </tr>
-       </thead>
-        </table>
-        
-        
-        
-        
-        
-        
-        
-        <input type="radio" id="checkAtivoAluno" name="AlunoRadioAtivo">&nbsp;&nbsp;Ativo
->>>>>>> 829dcf345c0f17da458a52c2d5682d52f2b79f11
+           <label>Como foi a aula?</label>
+            <input type="radio" id="checkAtivoAluno" name="AlunoRadioAtivo">&nbsp;&nbsp;Ativo
+            </tr>
+           
+      
+   
     
 <%@include file="/master/rodape.jsp" %>    
         
