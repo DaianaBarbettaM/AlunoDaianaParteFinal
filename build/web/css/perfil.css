@@ -1,8 +1,8 @@
 
 table tr>td, table tr>th{
-    padding:0px 0;
+    padding:10px 0;
 }
 .campoTexto{
-   border:20px;
+   border:2px;
    border-bottom: #3d73cc;
 }

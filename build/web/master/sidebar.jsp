@@ -7,7 +7,13 @@
             </div>
         </div>
         <ul class="sidebar-menu" data-widget="tree">
-           
+            <li>
+                <a href="/admin">
+                    <i class="fa fa-th"></i> <span>Área Restrita</span>
+                    <span class="pull-right-container">
+                    </span>
+                </a>
+            </li>
             <li>
                 <a href="/perfil">
                     <i class="fa fa-th"></i> <span>Perfil</span>

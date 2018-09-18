@@ -1,4 +1,9 @@
 
+<%-- 
+    Document   : AVALIAÇÃODaiana
+    Created on : 18/09/2018, 08:24:29
+    Author     : Daiana
+--%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <%@page import="web.java.mapping.ListagemArquivos"%>
@@ -28,81 +33,83 @@
     </div>
 </div>
         
-   <body>
-	<table width="467" border="1px">
-		<tr>
-			<td>Muito bom</td>
-			<td>Bom</td>
-			<td>Ruim</td>
-			<td>Muito ruim</td>
-		</tr>
-        </table>            
-        <div>
-            <td>Como foi a aula de hoje?</td>
-                <label for="radioAulaHoje">
-            <input type="radio" class="" id="radioAulaHoje" name="aulaHoje" value=""> 
-            <input type="radio" class="" id="radioAulaHoje" name="aulaHoje" value=""> 
-            <input type="radio" class="" id="radioAulaHoje" name="aulaHoje" value=""> 
-            <input type="radio" class="" id="radioAulaHoje" name="aulaHoje" value=""> 
-            </label>  
-         </div>
+    <table width="700">
+        <tbody>
+            <tr>
+                <td width="300"></td>
+                <td> Muito bom </td>
+                <td>  Bom </td>
+                <td> Ruim </td>
+                <td>Muito ruim </td>
+            </tr>
             
-        <div>
-            <td>Metodologia aplicada pelo instrutor?</td>
-            <label for="radioMetodologia">
-                <input type="radio" class="" id="radioMetodologia" name="metodologia" value=""> 
-                <input type="radio" class="" id="radioMetodologia" name="metodologia" value="">
-                <input type="radio" class="" id="radioMetodologia" name="metodologia" value="">
-                <input type="radio" class="" id="radioMetodologia" name="metodologia" value="">
-            </label>
-                </div>
-		
-        <div>
-            <td>Postura didática do instrutor?</td>
-            <label for="radioPostura">
-                <input type="radio" class="" id="radioPostura" name="radioPostura" value=""> 
-                <input type="radio" class="" id="radioPostura" name="radioPostura" value=""> 
-                <input type="radio" class="" id="radioPostura" name="radioPostura" value=""> 
-                <input type="radio" class="" id="radioPostura" name="radioPostura" value="">
-            </label>
-        </div>
-        
-        <div>
-            <td>Computadores e equipamentos?</td>
-            <label for="radioPcEquipamento">
-                <input type="radio" class="" id="radioPcEquipamento" name="radioPcEquipamento" value=""> 
-                <input type="radio" class="" id="radioPcEquipamento" name="radioPcEquipamento" value="">
-                <input type="radio" class="" id="radioPcEquipamento" name="radioPcEquipamento" value="">
-                <input type="radio" class="" id="radioPcEquipamento" name="radioPcEquipamento" value="">
-            </label>
-        </div>
-        
-        <div>
-           <td>Condições físicas do ambiente? </td>
-           <label for="radioCondicoes">
-                <input type="radio" class="" id="radioCondicoes" name="radioCondicoes" value="">
-                <input type="radio" class="" id="radioCondicoes" name="radioCondicoes" value="">
-                <input type="radio" class="" id="radioCondicoes" name="radioCondicoes" value="">
-                <input type="radio" class="" id="radioCondicoes" name="radioCondicoes" value="">
-            </label>
-        </div>
-        
-        <div>
-           <td>Observações:</td>
-		<input type="" name=""> 
+            <tr>
+                <td>
+                    <div>Como foi a aula de hoje?</div>
+                </td>
+                <td><input type="radio" class="" id="radioAulaHoje" name="aulaHoje" value=""></td>
+                <td><input type="radio" class="" id="radioAulaHoje" name="aulaHoje" value=""></td> 
+                <td><input type="radio" class="" id="radioAulaHoje" name="aulaHoje" value=""></td> 
+                <td><input type="radio" class="" id="radioAulaHoje" name="aulaHoje" value=""></td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <div>Metodologia aplicada pelo instrutor?</div>
+                </td>
+                <td><input type="radio" class="" id="radioMetodologia" name="metodologia" value=""></td>
+                <td><input type="radio" class="" id="radioMetodologia" name="metodologia" value=""></td>
+                <td><input type="radio" class="" id="radioMetodologia" name="metodologia" value=""></td>
+                <td><input type="radio" class="" id="radioMetodologia" name="metodologia" value=""></td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <div>Postura didática do instrutor?</div>
+                </td>
+                <td><input type="radio" class="" id="radioPostura" name="radioPostura" value=""></td> 
+                <td><input type="radio" class="" id="radioPostura" name="radioPostura" value=""></td>
+                <td><input type="radio" class="" id="radioPostura" name="radioPostura" value=""></td> 
+                <td><input type="radio" class="" id="radioPostura" name="radioPostura" value=""></td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <div>Computadores e equipamentos?</div>
+                </td>
+                <td><input type="radio" class="" id="radioPcEquipamento" name="radioPcEquipamento" value=""></td> 
+                <td><input type="radio" class="" id="radioPcEquipamento" name="radioPcEquipamento" value=""></td>
+                <td><input type="radio" class="" id="radioPcEquipamento" name="radioPcEquipamento" value=""></td>
+                <td><input type="radio" class="" id="radioPcEquipamento" name="radioPcEquipamento" value=""></td>
+            </tr>
                 
-        </div>
+            <tr>
+               <td>
+                    <div>Condições físicas do ambiente?</div>
+                </td>
+                <td><input type="radio" class="" id="radioCondicoes" name="radioCondicoes" value=""></td>
+                <td><input type="radio" class="" id="radioCondicoes" name="radioCondicoes" value=""></td>
+                <td><input type="radio" class="" id="radioCondicoes" name="radioCondicoes" value=""></td>
+                <td><input type="radio" class="" id="radioCondicoes" name="radioCondicoes" value=""></td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <div>Observações</div>
+                </td>
+                <td><input type="" name=""></td>
+                
+            </tr>
+        </tbody>    
+    </table>
+        
         <div>
             <button>
                 <label>Salvar</label>
             </button>
         </div>
+   </tr>
 
-   
-   
-
-		
-	
 
 </body>
     
